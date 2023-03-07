@@ -1,0 +1,1 @@
+export const sigh_up_key="value"

@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -35,4 +34,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+.productpage{
+  display: flex;
+  width: 700px;
+  height: 200px;
+  background-color: #61dafb;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.imagecontainer{
+  width: 200px;
+  height: 200px;
+}
+.pagclick{
+  display: flex;
+  border: 1px solid;
+  padding: 5px;
+  margin: 5px;
+}
+.pagclick > span{
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  border: 1px solid;
+  text-align: center;
+}
+.pagclick :hover{
+  background-color: #282c34;
+}
+.paginatio_opacity{
+  opacity: 0;
+}
+.basketcomtainer{
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  background-color: #61dafb;
+  margin-left: 1000px;
+}
+.mainbasket{
+  float: left;
 }
